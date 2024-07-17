@@ -1,0 +1,80 @@
+.header{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+   z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+} 
+.left-section{
+    
+    width: 140px;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+#bean-logo{
+    color: rgba(165, 42, 42, 0.747);
+    width: 10px;
+}
+.middle-section{
+    
+    align-items: center;
+    flex: 1;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-1,
+.nav-2,.nav-3,.nav-4,.nav-5{
+    color: white;
+    text-decoration: none;
+    font-family: "roboto", serif;
+    font-weight: 500;
+}
+.nav-1:hover,.nav-2:hover,.nav-3:hover,.nav-4:hover,.nav-5:hover{
+    background-color: beige;
+    color: black;
+}
+.right-section{
+    
+    width: 40px;
+    display: flex;
+    align-items: center;
+}
+#search-icon{
+    color: white;
+    cursor: pointer;
+}
+.main-pic{
+    font-family: "Arial", Helvetica, sans-serif;
+}
+
+.img-descrip{
+    position: absolute;
+    font-size: 50px;
+    bottom: 100px;
+    left: 80px;
+    color: white;
+}
+.order-button{
+    padding: 10px 35px 10px 35px;border-radius: 35px;border: none;font-size: 11px;font-weight: bold;cursor: pointer;background-color: white;color: black;transition: 0.25s;
+}
+.order-button:hover{
+    background-color: rgba(128, 128, 128, 0.973);
+    color: white;
+}
+
+
